@@ -79,7 +79,7 @@ inquirer
       name: 'license',
       message: 'What license did you use?',
       default: 'none',
-      choices: [{key:"a" ,value:"MIT",code:"[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"},
+      choices: [{key:"a" ,value:"MIT"},{key:"b",value:"Apache 2.0"}
         
       ],
     },
@@ -100,7 +100,19 @@ inquirer
     console.log(answers.license)
     if(answers.license==="MIT"){
       answers.code="[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    } else if(answers.license === "Apache 2.0"){
+      answers.code="[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
     }
+
+
+
+
+
+
+
+
+
+
     const readMeFileContent = generateReadMe(answers);
 
     fs.writeFile('README.md', readMeFileContent, (err) =>
