@@ -1,10 +1,8 @@
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-# 09 Node.js Challenge: Professional README Generator
 
 MIT
-#ua
+#llaksjdf
 ##Description
-ajdf
+laksdjfa
 
 ##Table of Contents
 [Installation](#installation)
@@ -13,14 +11,14 @@ ajdf
 [License](#license)
 
 ##Installation
-lakjsdflj
+laskdjfl;as
 
 ##Usage
-asdkjf;lasdj
+lasjflas
 
 ##Credits
-asdfasdf
-
+laskdfja;
+;lsadkjfa
 ##License
 MIT
 
