@@ -1,8 +1,8 @@
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-# jaj
+[![License: Hippocratic 2.1](https://img.shields.io/badge/License-Hippocratic_2.1-lightgrey.svg)](https://firstdonoharm.dev)
+# weather
 ## Description
-jaj
+its weather
 
 ## Table of Contents
 [Installation](#installation)
@@ -11,16 +11,16 @@ jaj
 [License](#license)
 
 ## Installation
-ajja
+idk
 
 ## Usage
-ajja
+idk
 
 ## Credits
-jaja
-jaj
+bexi
+bootstrap
 ## License
-This appilication is covered by the Apache 2.0 license.
+This appilication is covered by the The Hippocratic License 2.1 license.
 
 ## Questions
 
