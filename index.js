@@ -2,9 +2,9 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const CheckboxPrompt = require('inquirer/lib/prompts/checkbox');
 
-const generateReadMe = ({projectName, description,installation,usage,credits,thirdParty,license,licenseCode,badges,features,tests}) =>
+const generateReadMe = ({projectName, description,installation,usage,credits,thirdParty,license,code,github,email}) =>
 `
-${license}
+${code}
 #${projectName}
 ##Description
 ${description}
@@ -25,16 +25,11 @@ ${usage}
 ${credits}
 ${thirdParty}
 ##License
-${license}
+This appilication is covered by the ${license} license.
 
-##Badges
-${badges}
-
-##Features
-${features}
-
-##Tests
-${tests}
+##Questions
+${github}
+${email}
 
 `;
 
@@ -84,15 +79,28 @@ inquirer
       name: 'license',
       message: 'What license did you use?',
       default: 'none',
-      choices: [{licenseCode: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",value:"MIT"}
+      choices: [{key:"a" ,value:"MIT",code:"[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"},
         
       ],
-    }
-   
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'What is your github URL?',
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email address?',
+    },
   ])
+  
   .then((answers) => {
     console.log(answers)
-    
+    console.log(answers.license)
+    if(answers.license==="MIT"){
+      answers.code="[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    }
     const readMeFileContent = generateReadMe(answers);
 
     fs.writeFile('README.md', readMeFileContent, (err) =>

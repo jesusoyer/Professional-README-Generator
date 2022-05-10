@@ -1,8 +1,8 @@
 
-MIT
-#llaksjdf
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+#lj
 ##Description
-laksdjfa
+jjs
 
 ##Table of Contents
 [Installation](#installation)
@@ -11,23 +11,18 @@ laksdjfa
 [License](#license)
 
 ##Installation
-laskdjfl;as
+sjsj
 
 ##Usage
-lasjflas
+jsjs
 
 ##Credits
-laskdfja;
-;lsadkjfa
+jsj
+jsj
 ##License
-MIT
+This appilication is covered by the MIT license.
 
-##Badges
-undefined
+##Questions
 
-##Features
-undefined
 
-##Tests
-undefined
 
