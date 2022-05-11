@@ -38,7 +38,7 @@ This application is covered by no licenses.
 ## Test
 
 
-## Questions
+## Question
 If you have any questions feel free to email me or message me on GitHub.<br>
 My github: https://github.com/jesusoyer<br>
 My Email: oyervidesjesus017@gmail.com
