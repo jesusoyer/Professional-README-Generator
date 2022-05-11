@@ -41,7 +41,7 @@ ${contribute}
 ## Test
 ${test}
 
-## Questions
+## Question
 If you have any questions feel free to email me or message me on GitHub.
 ${email}
 ${github}
