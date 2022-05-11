@@ -19,9 +19,8 @@ developers save time when completing a project. They spend less time formatting 
 The user needs to have node.js installed on their computer as well as the inquirer package and the fs package.
 
 ## Usage
-The first step the user needs to do is call the index.js document using node.js in the terminal. Once the program is running it will prompt the user with questions regarding their project. Once all of the questions are completed they given a newly created README file in thier file directory.
-
-
+The first step the user needs to do is call the index.js document using node.js in the terminal. Once the program is running it will prompt the user with questions regarding their project. Once all of the questions are completed they given a newly created README file in thier file directory.<br>
+<img width="1357" alt="README generator" src="https://user-images.githubusercontent.com/88277371/167919134-ef0febce-3a85-44a9-a0cb-4dc6997dc0a2.png">
 
 ## Credits
 
