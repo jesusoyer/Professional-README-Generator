@@ -5,19 +5,20 @@
 
 
 ## Table of Contents
-[Installation](#installation)
-[Usage](#usage)
-[Credits](#credits)
-[License](#license)
-[Features](#features)
-[Contribute](#contribute)
-[Test](#test)
-[Question](#question)
+[Installation](#installation)<br>
+[Usage](#usage)<br>
+[Credits](#credits)<br>
+[License](#license)<br>
+[Features](#features)<br>
+[Contribute](#contribute)<br>
+[Test](#test)<br>
+[Question](#question)<br>
 
 ## Installation
 
-
 ## Usage
+Instructions video<br>
+https://drive.google.com/file/d/1iXQv-_425UrZWAIMtItpQzdDuXeDPTJr/view<br>
 The first step the user needs to do is call the index.js document using node.js in the terminal. Once the program is running it will prompt the user with questions regarding their project. Once all of the questions are completed they given a newly created README file in thier file directory.<br>
 <img width="1357" alt="README generator" src="https://user-images.githubusercontent.com/88277371/167919134-ef0febce-3a85-44a9-a0cb-4dc6997dc0a2.png">
 
