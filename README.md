@@ -1,8 +1,8 @@
 
  
-# 
+# Professional README Generator
 ## Description
-
+A program that dyanmically creates a professional README.md file for a user. This program prompts the user with questions about their project and then creates a file with the users inputs. This project was created to help the user save time when working on a project, allowing them to have one less thing to worry about.
 
 ## Table of Contents
 [Installation](#installation)<br>
