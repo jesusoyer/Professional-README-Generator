@@ -23,7 +23,9 @@ The first step the user needs to do is call the index.js document using node.js 
 <img width="1357" alt="README generator" src="https://user-images.githubusercontent.com/88277371/167919134-ef0febce-3a85-44a9-a0cb-4dc6997dc0a2.png">
 
 ## Credits
-
+node.js<br>
+inquirer<br>
+fs<br>
 
 
 ## License
